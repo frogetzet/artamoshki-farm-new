@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Экоферма Артамошки - парное мясо кролика, птица, яйца и творог из Вырицы">
+    <title>Артамошки | Фермерские продукты из Вырицы</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ШАПКА -->
+<header class="header">
+    <div class="header-top">
+        <div class="container header-inner">
+            <div class="header-brand">
+                <div class="logo">🐰</div>
+                <div class="brand-text">
+                    <h1 class="brand-name">Артамошки</h1>
+                    <span class="brand-tagline">Фермерские продукты • Вырица</span>
+                </div>
+            </div>
+            <nav class="nav-desktop">
+                <a href="#catalog" class="nav-link">Каталог</a>
+                <a href="#about" class="nav-link">О ферме</a>
+                <a href="#reviews" class="nav-link">Отзывы</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <a href="tel:+79213112271" class="btn-call-header">
+                <i class="fas fa-phone"></i> Позвонить
+            </a>
+        </div>
+    </div>
+    <div class="header-info">
+        <div class="container info-inner">
+            <span class="info-text"><i class="fas fa-map-pin"></i> Ленинградская область, п. Вырица</span>
+            <span class="info-text"><i class="fas fa-clock"></i> 09:00 - 21:00 ежедневно</span>
+            <span class="info-text"><i class="fas fa-phone-volume"></i> +7 (921) 311-22-71</span>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container hero-inner">
+        <div class="hero-left">
+            <span class="hero-tag">Натуральные продукты</span>
+            <h2 class="hero-title">Парное мясо кролика, птица и творог прямо с фермы</h2>
+            <p class="hero-desc">Подготовим свежий заказ к вашему приезду. Без заморозки, без химии, только натура.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">2000+</span>
+                    <span class="stat-label">голов на ферме</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">11 лет</span>
+                    <span class="stat-label">опыта</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">0%</span>
+                    <span class="stat-label">химии</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#catalog" class="btn btn-primary">
+                    <i class="fas fa-arrow-down"></i> Смотреть каталог
+                </a>
+                <a href="tel:+79213112271" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> Заказать
+                </a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-card">
+                <div class="hero-card-icon">🐰</div>
+                <h3>Личное подсобное хозяйство</h3>
+                <p>Мы не сотрудничаем с супермаркетами. Каждый заказ готовим персонально к вашему приезду.</p>
+                <div class="highlights">
+                    <div class="highlight"><i class="fas fa-leaf"></i> Свежий выгул</div>
+                    <div class="highlight"><i class="fas fa-check"></i> Под вашу дату</div>
+                    <div class="highlight"><i class="fas fa-shield"></i> Ветконтроль</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- КАТАЛОГ -->
+<section class="catalog" id="catalog">
+    <div class="container">
+        <div class="section-head">
+            <h2>Меню и цены</h2>
+            <p>Все позиции подготавливаются под вашу дату и час. Заказ принимается по телефону.</p>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">
+                <i class="fas fa-border-all"></i> Всё (9)
+            </button>
+            <button class="filter-btn" data-filter="rabbit">
+                <i class="fas fa-drumstick-bite"></i> Кролик (4)
+            </button>
+            <button class="filter-btn" data-filter="poultry">
+                <i class="fas fa-feather"></i> Птица (2)
+            </button>
+            <button class="filter-btn" data-filter="dairy">
+                <i class="fas fa-egg"></i> Яйца & Творог (3)
+            </button>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- Товары будут загружены здесь -->
+        </div>
+    </div>
+</section>
+
+<!-- О ФЕРМЕ -->
+<section class="about" id="about">
+    <div class="container">
+        <h2>Почему выбирают нас</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <div class="about-icon">🌬️</div>
+                <h3>Открытый воздух</h3>
+                <p>Кролики растут на свежем воздухе по методу Михайлова, без клеток и сараев.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">💪</div>
+                <h3>Без лекарств</h3>
+                <p>Натуральный иммунитет. Ноль антибиотиков, стимуляторов и химии.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">🥛</div>
+                <h3>Молочное вскармливание</h3>
+                <p>Крольчата растут с мамой до 3 месяцев — получают крепкое здоровье.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">🌾</div>
+                <h3>Натуральный рацион</h3>
+                <p>Только зерно, сено и вода из скважины. Никакого комбикорма.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">🏆</div>
+                <h3>Признание</h3>
+                <p>Дважды первое место в конкурсе личных подсобных хозяйств района.</p>
+            </div>
+            <div class="about-card">
+                <div class="about-icon">⏰</div>
+                <h3>Свежесть</h3>
+                <p>Забой строго под ваш звонок. Парное мясо, никаких залежавшихся тушек.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ОТЗЫВЫ -->
+<section class="reviews" id="reviews">
+    <div class="container">
+        <h2>Что говорят клиенты</h2>
+        <div class="reviews-score">
+            <div class="score-badge">
+                <span class="score-num" id="avgScore">4.9</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-list" id="reviewsList">
+            <!-- Отзывы будут загружены здесь -->
+        </div>
+        
+        <div class="review-form-box">
+            <h3>Оставить отзыв</h3>
+            <form id="reviewForm" class="review-form">
+                <input type="text" id="authorName" placeholder="Ваше имя" required>
+                <input type="text" id="productName" placeholder="Что заказывали? (необязательно)">
+                <div class="form-rating">
+                    <label>Ваша оценка:</label>
+                    <div class="stars-input" id="starsInput">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="fas fa-star" data-rating="5"></i>
+                    </div>
+                    <span id="ratingText">5 из 5 ⭐</span>
+                </div>
+                <textarea id="reviewText" placeholder="Ваш отзыв..." rows="4" required></textarea>
+                <button type="submit" class="btn btn-primary">Опубликовать</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section class="contacts" id="contacts">
+    <div class="container">
+        <h2>Как забрать заказ</h2>
+        <div class="contacts-grid">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3>Позвоните</h3>
+                <p>+7 (921) 311-22-71</p>
+                <span class="small">Скажите, что хотите заказать</span>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3>Договоритесь</h3>
+                <p>О времени приезда</p>
+                <span class="small">Подготовим заказ к вашему приезду</span>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3>Заберите</h3>
+                <p>В Вырице</p>
+                <span class="small">Парное мясо, охлажденное, в пакетах</span>
+            </div>
+        </div>
+        <div class="contact-info">
+            <p><strong>Место:</strong> Ленинградская область, Гатчинский район, п. Вырица</p>
+            <p><strong>Время:</strong> Ежедневно 09:00 - 21:00</p>
+            <p><strong>Телефон:</strong> <a href="tel:+79213112271">+7 (921) 311-22-71</a></p>
+        </div>
+    </div>
+</section>
+
+<!-- МОБИЛЬНАЯ ПАНЕЛЬ -->
+<div class="mobile-bar">
+    <a href="tel:+79213112271" class="mobile-btn">
+        <i class="fas fa-phone"></i> Позвонить
+    </a>
+    <a href="#catalog" class="mobile-btn">
+        <i class="fas fa-shopping-bag"></i> Каталог
+    </a>
+    <a href="#reviews" class="mobile-btn">
+        <i class="fas fa-star"></i> Отзывы
+    </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
